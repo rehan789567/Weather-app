@@ -1,4 +1,4 @@
-// Maps WeatherAPI condition codes to a normalized weather "kind" plus
+// Maps normalized condition codes to a weather "kind" plus
 // intensity data the 3D scene and theme system share.
 
 const SNOW_CODES = new Set([

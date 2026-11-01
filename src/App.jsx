@@ -40,7 +40,10 @@ function Dashboard() {
         )}
 
         <footer className="mt-auto pt-10 text-center text-xs themed" style={{ color: 'var(--text-3)' }}>
-          Powered by WeatherAPI.com · My Weather
+          Weather by <a href="https://open-meteo.com/" target="_blank" rel="noreferrer" className="underline underline-offset-2">Open-Meteo</a>
+          {' · Location by '}
+          <a href="https://freeipapi.com/" target="_blank" rel="noreferrer" className="underline underline-offset-2">freeipapi</a>
+          {' · My Weather'}
         </footer>
       </div>
     </div>
